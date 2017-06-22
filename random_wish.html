@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Sünnipäeva õnnitlused</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Valik sünnipäeva õnnitlusi ja soove kallimale">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="random_wish.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!-- Facebook init-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=1929048887354398";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <!--End of Facebook-->
+    <div class="main">
+        <div id="text_container">
+            <!--<h2 id="want_wish">Soovid sünnipäeva õnnitlust?</h2>-->
+            <img src="img/soovid_onnitleda.png" alt="sünnipäeva õnnitlus" srcset="img/soovid_onnitleda.svg">
+            <h1 id="get_wish">Palju õnne!</h1>
+        </div>
+
+        <div id="buttons">
+        <!--<input id="keywrd" type="text" placeholder="märksõna">-->
+            <a id="send_btn"  href="" target="blank"><img class="send" src="img/ymbrik.png" alt="saada õnnitlus sõbrale" srcset="img/ymbrik.svg"/><img class="sending" src="img/ymbrik2.png" alt="saada õnnitlus sõbrale" srcset="img/ymbrik2.svg" /></a>
+            <div class="fb-send" data-href="https://developers.facebook.com/docs/plugins/"></div>
+            <input id="submit_btn" onclick="getWish()" type="button" value="Anna originaalsem!">
+
+         </div>
+     </div>
+ <script type="text/javascript">
+     jQuery('#send_btn').click(function() {
+         wish = jQuery('#get_wish').text();
+         jQuery('#send_btn').attr('href', 'http://twitter.com/intent/tweet?text=' + wish + '&hashtags=halfRandomWish, pooljuhuslikõnnesoov')
+     });
+
+     jQuery('#send_btn').hover(function() {
+         $('.fb-send').show()
+     });
+ </script>
+ </body>
+ </html>
