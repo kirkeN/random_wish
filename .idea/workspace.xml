@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51506dc9-2274-4fdc-8042-c31f1d6a5b31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random_wish.html" afterPath="$PROJECT_DIR$/random_wish.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random_wish.js" afterPath="$PROJECT_DIR$/random_wish.js" />
     </list>
     <ignored path="randomWish.iws" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="random_wish.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_wish.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,9 +37,22 @@
       <file leaf-file-name="random_wish.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_wish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajaxjs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajaxjs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1498180605040" expanded="true" signature="414:449" placeholder="INSERT INTO bday_wish... " />
+                <marker date="1498180605040" expanded="true" signature="414:463" placeholder="INSERT INTO bday_wish... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +78,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/random_wish.html" />
         <option value="$PROJECT_DIR$/random_wish.js" />
+        <option value="$PROJECT_DIR$/ajaxjs.php" />
       </list>
     </option>
   </component>
@@ -80,8 +92,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="732" />
-    <option name="width" value="817" />
+    <option name="x" value="664" />
+    <option name="y" value="3" />
+    <option name="width" value="1081" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -198,19 +211,19 @@
       <updated>1498114476208</updated>
       <workItem from="1498114477878" duration="712000" />
       <workItem from="1498115299265" duration="523000" />
-      <workItem from="1498115927147" duration="9045000" />
+      <workItem from="1498115927147" duration="21271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10280000" />
+    <option name="totallyTimeSpent" value="22506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="732" y="0" width="817" height="886" extended-state="0" />
-    <editor active="true" />
+    <frame x="664" y="3" width="1081" height="886" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19101124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08826291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -330,16 +343,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random_wish.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxjs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1498180605040" expanded="true" signature="414:449" placeholder="INSERT INTO bday_wish... " />
+            <marker date="1498180605040" expanded="true" signature="414:463" placeholder="INSERT INTO bday_wish... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random_wish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
