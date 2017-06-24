@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51506dc9-2274-4fdc-8042-c31f1d6a5b31" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new_wishes.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/soovid_onnitleda.png" afterPath="$PROJECT_DIR$/img/soovid_onnitleda.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/soovid_onnitleda.svg" afterPath="$PROJECT_DIR$/img/soovid_onnitleda.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random_wish.html" afterPath="$PROJECT_DIR$/random_wish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="randomWish.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxjs.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxjs.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxjs.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_wish.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="random_wish.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_wish.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+            <state relative-caret-position="513">
+              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -215,12 +211,12 @@
       <updated>1498114476208</updated>
       <workItem from="1498114477878" duration="712000" />
       <workItem from="1498115299265" duration="523000" />
-      <workItem from="1498115927147" duration="41257000" />
+      <workItem from="1498115927147" duration="42250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42492000" />
+    <option name="totallyTimeSpent" value="43485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -369,14 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_wish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_wish.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -393,6 +381,14 @@
             <marker date="1498180605040" expanded="true" signature="414:449" placeholder="INSERT INTO bday_wish... " />
             <marker date="1498180605040" expanded="true" signature="414:463" placeholder="INSERT INTO bday_wish... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_wish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
