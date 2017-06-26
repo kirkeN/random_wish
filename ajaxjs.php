@@ -5,8 +5,8 @@ $host="localhost";
 $user="test";
 $pass="t3st3r123";
 $db="test";
-$connection = mysqli_connect($host, $user, $pass, $db) or die("ei saa ühendust mootoriga- ".mysqli_error());
-mysqli_query($connection, "SET CHARACTER SET UTF8") or die("Ei saanud baasi utf-8-sse - ".mysqli_error($connection));
+$connection = mysqli_connect($host, $user, $pass, $db) or die("Cannot connect- ".mysqli_error());
+mysqli_query($connection, "SET CHARACTER SET UTF8") or die("Cannot connect to base utf-8 - ".mysqli_error($connection));
 
 
 $query =mysqli_query($connection,"INSERT INTO bday_wish(wish) VALUES('$promptWish')");

@@ -36,7 +36,7 @@
     <div class="main">
         <div id="text_container">
             <img src="img/soovid_onnitleda.png" alt="sünnipäeva õnnitlus" srcset="img/soovid_onnitleda.svg">
-            <h1 id="get_wish">Palju õnne!</h1>
+            <h1 id="get_wish"></h1>
         </div>
 
         <div id="buttons">
@@ -50,23 +50,24 @@
         <a href="#" class="icon icon-mono twitter">twitter</a>
         <a href="#" class="icon icon-mono googleplus">google+</a>
             <!--<div class="fb-send" data-href="http://enos.itcollege.ee/~kinarusk/half_random_wish/random_wish.html"></div>
-            <div class="fb-share-button" data-href="http://enos.itcollege.ee/~kinarusk/half_random_wish/random_wish.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="ajee" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fenos.itcollege.ee%2F%7Ekinarusk%2Fhalf_random_wish%2Frandom_wish.html&amp;src=sdkpreparse">Share</a></div>
-        </div>-->
+            <div class="fb-share-button" data-href="http://enos.itcollege.ee/~kinarusk/half_random_wish/random_wish.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="ajee" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fenos.itcollege.ee%2F%7Ekinarusk%2Fhalf_random_wish%2Frandom_wish.html&amp;src=sdkpreparse">Share</a></div>-->
+        </div>
      </div>
-
- <script type="text/javascript">
-
+<script type="text/javascript">
+    $('.facebook').click(function() {
+        wish = $('#get_wish').text();
+        $('.facebook').attr('href','https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fenos.itcollege.ee%2F%7Ekinarusk%2Fhalf_random_wish%2Frandom_wish.html&amp;src=sdkpreparse')
+    });
      $('.twitter').click(function() {
-         wish = jQuery('#get_wish').text();
-         jQuery('.twitter').attr('href', 'http://twitter.com/intent/tweet?text=' + wish + '&hashtags=halfRandomWish, pooljuhuslikõnnesoov')
+         wish = $('#get_wish').text();
+         $('.twitter').attr('href', 'http://twitter.com/intent/tweet?text=' + wish + '&hashtags=halfRandomWish, pooljuhuslikõnnesoov')
      });
+    $('.googleplus').click(function() {
+        wish = $('#get_wish').text();
+        $('.googleplus').attr('href','https://plus.google.com/share?url=http://enos.itcollege.ee/~kinarusk/half_random_wish/random_wish.html')
+    });
 
-     $('.facebook').click(function() {
-         wish = jQuery('#get_wish').text();
-         jQuery('.facebook').attr('href','https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fenos.itcollege.ee%2F%7Ekinarusk%2Fhalf_random_wish%2Frandom_wish.html&amp;src=sdkpreparse' + wish)
-
-     });
-
+    document.getElementById("get_wish").innerHTML = getWish().text();
 </script>
  </body>
  </html>
