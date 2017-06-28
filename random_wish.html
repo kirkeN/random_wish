@@ -33,6 +33,7 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
  <!--End of Facebook-->
+
     <div class="main">
         <div id="text_container">
             <img src="img/soovid_onnitleda.png" alt="sünnipäeva õnnitlus" srcset="img/soovid_onnitleda.svg">
@@ -40,10 +41,8 @@
         </div>
 
         <div id="buttons">
-        <!--<input id="keywrd" type="text" placeholder="märksõna">-->
             <input id="propose_btn" class="button" onclick="newWish()" type="button" value="Paku oma õnnitlus">
-            <input id="submit_btn" class="button" onclick="getWish()" type="button" value="Anna originaalsem!">
-           <!-- <a id="send_btn" href="" target="blank"><img class="send" src="img/ymbrik.png" alt="saada õnnitlus sõbrale" srcset="img/ymbrik.svg"/><img class="sending" src="img/ymbrik2.png" alt="saada õnnitlus sõbrale" srcset="img/ymbrik2.svg" /></a>-->
+            <input id="submit_btn" class="button" onclick="getWish()" type="button" value="Anna originaalsem">
         </div>
         <div id="socialbtns" data-mobile-iframe="true">
         <a href="#" class="icon icon-mono facebook">facebook</a>
@@ -54,6 +53,7 @@
         </div>
      </div>
 <script type="text/javascript">
+    //social media sharing buttons
     $('.facebook').click(function() {
         wish = $('#get_wish').text();
         $('.facebook').attr('href','https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fenos.itcollege.ee%2F%7Ekinarusk%2Fhalf_random_wish%2Frandom_wish.html&amp;src=sdkpreparse')
@@ -67,6 +67,7 @@
         $('.googleplus').attr('href','https://plus.google.com/share?url=http://enos.itcollege.ee/~kinarusk/half_random_wish/random_wish.html')
     });
 
+//random wish on loading homepage
     document.getElementById("get_wish").innerHTML = getWish().text();
 </script>
  </body>
